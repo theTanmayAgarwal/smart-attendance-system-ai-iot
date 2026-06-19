@@ -39,7 +39,12 @@ while True:
 
     cv2.imshow("Face Detection", frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    key = cv2.waitKey(1) & 0xFF
+
+    if key == ord('q'):
+        break
+
+    if key == 27:  # ESC key
         break
 
 cap.release()
