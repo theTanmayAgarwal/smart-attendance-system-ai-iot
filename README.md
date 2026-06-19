@@ -1,10 +1,28 @@
-# Smart Attendance System using AI, Computer Vision and IoT
+# Smart Attendance System
 
-An intelligent attendance management system that uses
-face recognition, liveness detection and IoT integration
-to automate attendance tracking in classrooms.
+## Team Members
 
-Team:
 - Tanmay Agarwal
-- Jayvee
-- Drishti
+- Jayvee Shah
+- Drishti Heda
+
+## Project Overview
+
+Smart Attendance System using:
+
+- Face Detection
+- Face Recognition
+- Liveness Detection
+- IoT Integration
+- ESP32
+- Dashboard Analytics
+
+## Tech Stack
+
+- Python
+- OpenCV
+- InsightFace
+- FastAPI
+- Streamlit
+- SQLite
+- ESP32
